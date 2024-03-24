@@ -1,8 +1,9 @@
-a = int(input("a sonini kiriting: "))
-b = int(input("b sonini kiriting: "))\
+a = int(input("Enter the value of a: "))
+b = int(input("Enter the value of b: "))
 
-kopaytma = 1
+product = 1
 
-for son in  range(a, b +1):
-    kopaytma *=son
-print(f"kopaytma = {kopaytma} ga teng")
+for number in range(a, b + 1):
+    product *= number
+
+print(f"The product is equal to {product}")

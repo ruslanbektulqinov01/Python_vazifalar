@@ -1,6 +1,3 @@
-#a va b butun sonlar berilgan(a>b). a va b sonlari orasidagi sonlarni o‘sish tartibida chiqarilsin(a
-#va b sonlari ham kiradi) hamda shu sonlar miqdori (soni) n chiqarilsin.
-
 
 a= int(input("a ni kiriting:"))
 b = int(input("b ni kiriting:"))

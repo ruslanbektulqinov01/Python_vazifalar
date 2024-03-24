@@ -1,5 +1,3 @@
-#a va b butun sonlar berilgan(a<b). a va b sonlari orasidagi sonlarni kamayish tartibida
-#chiqarilsin(a va b sonlari ham kiradi) hamda shu sonlar miqdori (soni) n chiqarilsin.
 
 a = int(input("1-sonni kiriting:"))
 b = int(input("2-sonni kiriting:"))

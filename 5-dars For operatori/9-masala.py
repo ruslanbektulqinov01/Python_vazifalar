@@ -1,6 +1,6 @@
-a = int(input("a sonini kiriting: "))
-b = int(input("b sonini kiriting: "))
+a = int(input("Enter the value of a: "))
+b = int(input("Enter the value of b: "))
 
-yigindisi = sum(x ** 2 for x in range(a, b + 1))
+sum_of_squares = sum(x ** 2 for x in range(a, b + 1))
 
-print(f"{a} dan {b} gacha bo'lgan sonlarning kvadratlar yig'indisi: {yigindisi}")
+print(f"The sum of squares of numbers from {a} to {b} is: {sum_of_squares}")

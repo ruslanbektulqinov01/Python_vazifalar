@@ -1,9 +1,8 @@
-# a butun son berilgan uning toqligi tekshirilsin
+number = int(input("Enter a number: "))
 
-son = int(input("Sonni kiriting"))
+is_odd = number % 2 != 0
 
-toqmi = bool (son%2!=0)
+print(is_odd)
 
-print(toqmi)
 
 

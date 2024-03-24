@@ -1,8 +1,8 @@
-# a butun son berilgan uning juftligi tekshirilsin
-son = int(input("Sonni kiriting"))
+number = int(input("Enter a number: "))
 
-juftmi = bool(son%2==0)
+is_even = number % 2 == 0
 
-print(juftmi)
+print(is_even)
+
 
 

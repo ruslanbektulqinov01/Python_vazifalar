@@ -1,19 +1,13 @@
-# a, b, c butun sonlari berilgan. Ular (a<=b<=c) holat uchun tekshirilsin
+x = 1
+y = 2
+z = 3
 
-
-a = 1
-b = 2
-c = 3
-
-result = a <= b and b <= c
+result = x <= y and y <= z
 print(result)
 
+p = 3
+q = 2
+r = 1
 
-
-a = 3
-b = 2
-c = 1
-
-result2 = (a <= b and b <= c)
+result2 = p <= q and q <= r
 print(result2)
-

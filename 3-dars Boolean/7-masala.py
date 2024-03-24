@@ -1,15 +1,13 @@
-# a, b, c butun sonlar berilgan, b sonning a va c sonlar orasida yotishi tekshirilsin
+x = 1
+y = 2
+z = 3
 
-a = 1
-b = 2
-c = 3
+result = x < y < z
+print(result)
 
-tek = bool(a < b < c)
-print(tek)
+p = 3
+q = 2
+r = 1
 
-a = 3
-b = 2
-c = 1
-
-tek2 = bool(a < b < c)
-print(tek2)
+result2 = p < q < r
+print(result2)

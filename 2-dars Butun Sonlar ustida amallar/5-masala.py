@@ -1,8 +1,8 @@
-a = (input('a = '))
+a = int(input('Enter a number: '))
 
 if a > 0:
-    print('Bu musbat son')
+    print('This is a positive number.')
 elif a == 0:
-    print('bu son 0ga tent')
+    print('This number is zero.')
 else:
-    print('Bu son manfiy')
+    print('This is a negative number.')

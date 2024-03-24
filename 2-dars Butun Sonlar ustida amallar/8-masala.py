@@ -1,9 +1,8 @@
-# Ikki xonali son berilgan uning raqamlari o`rnini almashtirish natijasi hosil bo`lgan son chop etilsin
 
-a = 76
-b = a//10
-c = a%10
+x = 39
+y = x // 10
+z = x % 10
 
-natija = c*10+b
+result = z * 10 + y
 
-print(natija)
+print(result)

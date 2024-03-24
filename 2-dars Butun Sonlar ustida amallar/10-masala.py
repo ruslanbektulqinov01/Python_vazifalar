@@ -1,7 +1,5 @@
-# Uch xonali son berilgan, uning oxirgi va o`rta xonasidagi raqamlari chop etilsin
-
 a = 324
-b = a//10%10
-c = a%10
+middle_digit = a // 10 % 10
+last_digit = a % 10
 
-print(b,c)
+print(middle_digit, last_digit)

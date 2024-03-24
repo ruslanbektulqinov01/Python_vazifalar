@@ -1,10 +1,8 @@
-# 2xonali son berilgan uning raqamlari yig`indisi va ayirmasi topilsin
-
 a = 23
-b = a//10
-c =a%10
-yigindi = b + c
-kopaytma = b * c
+b = a // 10
+c = a % 10
+sum_digits = b + c
+product_digits = b * c
 
-print(f"Yig`indisi:{yigindi}")
-print(f"Ko`paytma:{kopaytma}")
+print(f"Sum of digits: {sum_digits}")
+print(f"Product of digits: {product_digits}")

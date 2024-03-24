@@ -1,11 +1,12 @@
-a = int(input("a ni kiriting (musbat son): "))
-b = int(input("b ni kiriting (musbat son, a dan katta): "))
+a = int(input("Enter a (positive number): "))
+b = int(input("Enter b (positive number, greater than a): "))
 
-kesma_son = 0
-qolgan_bolagi = a
+segments_placed = 0
+remaining_length = a
 
-while qolgan_bolagi >= b:
-    kesma_son += 1
-    qolgan_bolagi -= b
+while remaining_length >= b:
+    segments_placed += 1
+    remaining_length -= b
 
-print(f"{a} uzunlikdagi kesmaga {b} uzunlikdagi kesmani joylashtirganda, eng ko'p miqdorda joylashtirilgan kesma uzunligi: {kesma_son}, va bo'sh qolgan bo'lagi uzunligi: {qolgan_bolagi}")
+print(f"Segments placed: {segments_placed}")
+print(f"Remaining length: {remaining_length}")

@@ -1,7 +1,7 @@
-n = int(input("n sonini kiriting (0 dan katta butun son): "))
+n = int(input("Enter n (integer greater than or equal to 0): "))
 
 k = 1
 while k ** 2 <= n:
     k += 1
 
-print(f"Kvadrati n dan katta eng kichik k: {k}")
+print(f"The smallest integer k whose square is greater than or equal to n: {k}")

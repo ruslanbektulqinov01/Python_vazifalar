@@ -1,11 +1,11 @@
-a = int(input("a ni kiriting (musbat son): "))
-b = int(input("b ni kiriting (musbat son, a dan katta): "))
+a = int(input("Enter the value of a (positive number): "))
+b = int(input("Enter the value of b (positive number, greater than a): "))
 
-kesma_son = 0
-qolgan_bolagi = a
+segments_placed = 0
+remaining_length = a
 
-while qolgan_bolagi >= b:
-    kesma_son += 1
-    qolgan_bolagi -= b
+while remaining_length >= b:
+    segments_placed += 1
+    remaining_length -= b
 
-print(f"{a} uzunlikdagi kesmaga {b} uzunlikdagi kesmani joylashtirganda, joylashtirilgan kesmalar soni: {kesma_son}")
+print(f"When placing segments of length {b} into a segment of length {a}, the number of segments placed is: {segments_placed}")

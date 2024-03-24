@@ -1,4 +1,4 @@
-n = int(input("n ni kiriting (1 dan katta musbat butun son): "))
+n = int(input("Enter n (positive integer greater than 1): "))
 
 k = 1
 while k ** 3 < n:
@@ -6,4 +6,4 @@ while k ** 3 < n:
 
 k -= 1
 
-print(f"3 ning darajasida k < n tengsizlik o'rinli bo'ladigan eng katta k: {k}")
+print(f"The largest integer k such that k^3 < n: {k}")

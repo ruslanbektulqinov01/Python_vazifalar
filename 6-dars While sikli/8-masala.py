@@ -1,4 +1,4 @@
-n = int(input("n ni kiriting (musbat butun son): "))
+n = int(input("Enter n (positive integer): "))
 
 k = 1
 while k * k <= n:
@@ -6,4 +6,4 @@ while k * k <= n:
 
 k -= 1
 
-print(f"Kvadrati n dan katta bo‘lmagan eng katta butun k soni: {k}")
+print(f"The largest integer k whose square is less than or equal to n: {k}")

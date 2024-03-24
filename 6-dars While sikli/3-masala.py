@@ -1,7 +1,11 @@
-n = int(input("n ni kiriting (musbat butun son): "))
-k = int(input("k ni kiriting (musbat butun son): "))
+n = int(input("Enter n (positive integer): "))
+k = int(input("Enter k (positive integer): "))
 
-butun = n // k
-qoldiq = n % k
+quotient = 0
+remainder = n
 
-print(f"Bo'linmaning butun qismi: {butun}, va qoldiq qismi: {qoldiq}")
+while remainder >= k:
+    quotient += 1
+    remainder -= k
+
+print(f"The quotient of division: {quotient}, and the remainder: {remainder}")

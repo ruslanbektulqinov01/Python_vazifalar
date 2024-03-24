@@ -1,9 +1,6 @@
-# Aylana diametri
 d = 10
-
-# Uzunligi
 pi = 3.14
 
-l = d * pi
+circumference = d * pi
 
-print("Aylana uzunligi:", l)
+print("Circumference of the circle:", circumference)

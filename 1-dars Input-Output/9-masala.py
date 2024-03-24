@@ -5,5 +5,3 @@ b = 4
 c = math.sqrt(a*b)
 
 print(int(c))
-
-

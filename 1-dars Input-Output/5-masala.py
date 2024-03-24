@@ -1,12 +1,6 @@
-# Kub qirrasining uzunligi
 a = 4
+volume = a**3
+surface_area = 6 * a**2
 
-# Kubning hajmi
-v = a**3
-
-# Kubning sirtining yuzasi
-s = 6 * a**2
-
-#Natija
-print("Kubning hajmi:", v)
-print("Kubning sirtining yuzasi:", s)
+print("Volume of the cube:", volume)
+print("Surface area of the cube:", surface_area)

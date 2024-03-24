@@ -1,17 +1,12 @@
-# 2ta 0ga teng bo`lmagan a va b sonlar berilgan, ularning yig`indisi, ayirmasi, ko`paytmasi,bo`linmasi hisoblansin.
+a = 6
+b = 3
 
-a = 4
-b = 2
+sum_ab = a + b
+diff_ab = a - b
+product_ab = a * b
+quotient_ab = a / b
 
-c = a+b
-d = a-b
-e = a*b
-f = a/b
-
-
-print(f"Yig`indisi:{c}")
-print(f"Ayirmasi:{d}")
-print("Ko`paytmasi:", e)
-print("Bo`linmasi:", int(f))
-
-
+print(f"Sum: {sum_ab}")
+print(f"Difference: {diff_ab}")
+print(f"Product: {product_ab}")
+print(f"Quotient: {quotient_ab}")

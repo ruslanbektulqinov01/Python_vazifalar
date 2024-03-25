@@ -1,22 +1,23 @@
-def ikkilantirish(s, c):
-   yangi_s = ''
-   for char in s:
-       yangi_s += char + c * 2
-   return yangi_s
+def duplicate_chars(s, c):
+    new_s = ''
+    for char in s:
+        new_s += char + c * 2
+    return new_s
 
-def joylashtirish(s, c, s0):
-   index = s.find(c)
-   if index != -1:
-       yangi_s = s[:index] + s0 + s[index:]
-   else:
-       yangi_s = s + s0
-   return yangi_s
+def insert_string(s, c, s0):
+    index = s.find(c)
+    if index != -1:
+        new_s = s[:index] + s0 + s[index:]
+    else:
+        new_s = s + s0
+    return new_s
 
-s = "YAXWMSZ"
+s = "SALOM DUNYO"
 c = 'A'
-s0 = "SZGA ETVOMMA"
-yangi_s1 = ikkilantirish(s, c)
-print(yangi_s1)
+s0 = "XAYR HAMMAGA"
 
-yangi_s2 = joylashtirish(s, c, s0)
-print(yangi_s2)
+new_s1 = duplicate_chars(s, c)
+print(new_s1)
+
+new_s2 = insert_string(s, c, s0)
+print(new_s2)

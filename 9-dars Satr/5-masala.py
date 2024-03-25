@@ -1,9 +1,11 @@
-def joylashtirish(s, c, s0):
-   yangi_s = s.replace(c, c + s0)
-   return yangi_s
+def insert_and_replace(s, c, s0):
+    new_s = s.replace(c, c + s0)
+    return new_s
 
-s = "NMA GAP"
-c = 'A'
-s0 = "BOPTI"
-yangi_s = joylashtirish(s, c, s0)
-print(yangi_s)
+
+s = "UNIVERSITET"
+c = 'S'
+s0 = "PDP"
+
+new_s = insert_and_replace(s, c, s0)
+print(new_s)

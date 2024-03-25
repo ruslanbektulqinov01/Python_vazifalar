@@ -6,4 +6,4 @@ toq_indeksla = [i+1 for i, x in enumerate(massiv) if x % 2 != 0]
 
 print(*juft_indeksla)
 print(*reversed(toq_indeksla))
-print(*massiv)
+

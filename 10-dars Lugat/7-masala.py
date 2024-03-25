@@ -1,8 +1,9 @@
-def qiymatlar_yigindisi(lugat):
+def sum_of_values(dictionary):
+    total = sum(dictionary.values())
+    return total
 
-    yigindi = sum(lugat.values())
-    return yigindi
 
-lugat = {'a': 10, 'b': 20, 'c': 30}
+dictionary = {'a': 10, 'b': 20, 'c': 30}
 
-print("Qiymatlar yig'indisi:", qiymatlar_yigindisi(lugat))
+
+print("Sum of values:", sum_of_values(dictionary))

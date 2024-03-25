@@ -1,12 +1,9 @@
-# Lug'atga yangi kalit va qiymatni qo'shish
 
-# Eski lug'at
-lugat = {'c': 3, 'a': 1, 'b': 2}
+dictionary = {'c': 3, 'a': 1, 'b': 2}
+new_key = input("Enter the new key: ")
+new_value = int(input("Enter the new value: "))
 
-# Yangi kalit va qiymat
-yangi_kalit = input("Yangi kalitni kiriting: ")
-yangi_qiymat = int(input("Yangi qiymatni kiriting: "))
+dictionary[new_key] = new_value
 
-lugat[yangi_kalit] = yangi_qiymat
+print("Updated dictionary:", dictionary)
 
-print("Yangilangan lug'at:", lugat)

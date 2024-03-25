@@ -1,9 +1,7 @@
-# Lug'atni kalitlar bo'yicha saralash
+dictionary = {'c': 3, 'a': 1, 'b': 2}
 
-lugat = {'c': 3, 'a': 1, 'b': 2}
+sorted_dict = sorted(dictionary.items(), key=lambda x: x[0])
 
-lugat_saralangan = sorted(lugat.items(), key=lambda x: x[0])
+print("Dictionary sorted by keys:")
+print(dict(sorted_dict))
 
-print("Lug'atni kalitlar bo'yicha saralangan:")
-for item in lugat_saralangan:
-    print(item)

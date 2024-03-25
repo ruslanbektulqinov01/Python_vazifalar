@@ -1,10 +1,10 @@
-s = "assalom"
+s = "universitet"
 
 d = {}
-for harf in s:
-    if harf in d:
-        d[harf] += 1
+for char in s:
+    if char in d:
+        d[char] += 1
     else:
-        d[harf] = 1
+        d[char] = 1
 
-print("Yaratilgan lug'at:", d)
+print("Created dictionary:", d)

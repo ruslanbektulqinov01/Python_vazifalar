@@ -1,12 +1,11 @@
-def lugat_boshmi(lugat):
-
-    if lugat:
+def is_dict_empty(dictionary):
+    if dictionary:
         return False
     else:
         return True
 
-lugat1 = {}
-lugat2 = {'a': 1, 'b': 2, 'c': 3}
+dict1 = {}
+dict2 = {'a': 1, 'b': 2, 'c': 3}
 
-print("lugat1 bo'shmi:", lugat_boshmi(lugat1))
-print("lugat2 bo'shmi:", lugat_boshmi(lugat2))
+print("dict1 is empty:", is_dict_empty(dict1))
+print("dict2 is empty:", is_dict_empty(dict2))
